@@ -1,0 +1,56 @@
+body {
+    color:rgba(136, 135, 139, 0.97);
+    font-family:'Trebuchet MS';
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color:rgba(136, 135, 139, 0.97);
+    border-top: 5px dotted rgba(136, 135, 139, 0.97);
+    margin-top: 16px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+header {
+    color:rgba(136, 135, 139, 0.97);
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+header a {
+    color:rgba(136, 135, 139, 0.97);
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid rgba(136, 135, 139, 0.97);
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid rgba(136, 135, 139, 0.97);
+    background: rgba(136, 135, 139, 0.97);
+    color: white;
+    padding: 8px;
+}
